@@ -16,3 +16,6 @@ function classAutoload(){
     }
 }
 sql_autoload_register('classAutoload');
+
+//creating an instance of a class
+$ObjLayout = new Layout();
